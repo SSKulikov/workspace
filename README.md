@@ -62,7 +62,7 @@ const characters = [
   {name: 'лучник', health: 0},
 ];
 
-const alive = characters.filter(item => item.health > 0);
+characters.filter(item => item.health > 0);
 Удостоверьтесь, что проект собирается, если в консоли запустить команду npm run build, и в каталоге dist формируется преобразованный Babel код.
 
 Добавьте каталог dist в .gitignore.
@@ -109,7 +109,7 @@ const characters = [
   {name: 'лучник', health: 0}
 ];
 
-const alive = characters.filter(item => item.health > 0);
+characters.filter(item => item.health > 0);
 Содержимое .eslintignore:
 
 dist
